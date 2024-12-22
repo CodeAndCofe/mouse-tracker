@@ -1,0 +1,27 @@
+html {
+	height: 100%;
+  }
+  
+  body {
+	min-height: 100%;
+	padding: 11px;
+	padding-top: 100px;
+	margin: 0;
+  }
+  
+  .screen {
+	border: 1px solid black;
+	height: 700px;
+	width: 100%;
+	position: relative;
+  }
+  
+  .point {
+	position: absolute;
+	aspect-ratio: 1;
+	background-color: red;
+	width: 11px;
+	height: 11px;
+	border-radius: 50%;
+  }
+  
